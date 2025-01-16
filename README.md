@@ -24,3 +24,32 @@
 
 # 02: Data Lineage
       ![image](https://github.com/user-attachments/assets/491648b0-16af-41e4-9441-9cbb360d5cc3)
+
+
+
+# 02: AWS S3
+
+### Create IAM policy and attach into the bucket 
+    https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_examples_s3_rw-bucket.html
+
+                   {
+                   "Version": "2012-10-17",
+                   "Statement": [
+                       {
+                           "Sid": "ListObjectsInBucket",
+                           "Effect": "Allow",
+                           "Action": ["s3:ListBucket"],
+                           "Resource": ["arn:aws:s3:::bucket-name"]
+                       },
+                       {
+                           "Sid": "AllObjectActions",
+                           "Effect": "Allow",
+                           "Action": "s3:*Object",
+                           "Resource": ["arn:aws:s3:::bucket-name/*"]
+                       }
+                   ]
+               }
+
+  ![image](https://github.com/user-attachments/assets/7d790ff9-909a-46a1-94a7-0392e47cbf2f)
+
+## create user group > create IAM user > add user into group > create policy > attach policy into group 
