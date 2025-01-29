@@ -27,3 +27,6 @@ when we use aws Lambda :
   ## Steps : 
   1: Create Lambda function and write Python function.\
   2: Test Lambda function > create test event > 
+
+   python -m venv venv
+   pip3 install -r requirements.txt
