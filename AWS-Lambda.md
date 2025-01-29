@@ -68,3 +68,14 @@ when we use aws Lambda :
                  'body': json.dumps('Hello from Lambda!')
 
    ---------------------------------------------
+
+   ## 04: Create lambda by uploading zip code file to S3
+
+   Steps : 
+   1: Create S3 bucket & upload zip file 
+      ![image](https://github.com/user-attachments/assets/c041a8fe-9ca0-41d0-ab87-445909d896f6)
+
+   2: ![image](https://github.com/user-attachments/assets/3066037b-5004-4cb3-bf77-79c5e7c9cf3d) 
+
+   3:  
+
