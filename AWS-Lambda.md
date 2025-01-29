@@ -1,4 +1,4 @@
-## AWS Lambda note\
+## AWS Lambda note
 ------------------------------------------------------------------------------
 01: What is Lambda \
 02: How to create Lambda Function \
@@ -56,6 +56,7 @@ when we use aws Lambda :
    6: Change/Edit  Lambda configss > lambda handle function script name (test_lambda)
 
    7: Test the zip file 
+   
    ------------------------------------
    
             import json
