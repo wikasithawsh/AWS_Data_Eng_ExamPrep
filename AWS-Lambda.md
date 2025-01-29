@@ -28,9 +28,34 @@ when we use aws Lambda :
   1: Create Lambda function and write Python function.\
   2: Test Lambda function > create test event > 
 
-   python -m venv venv
-   pip3 install -r requirements.txt
+## 03: How to create lambda by uploading zip code file
+   ## Steps
+   in Vs Code > 
+   1: python -m venv venv \
+   2: pip3 install -r requirements.txt \
+         in requirements.txt >>>
+            requests==2.26.0
+            boto3==1.20.19
+      
+   3: test_lambda.py > 
+         import json
+     
+         def lambda_handler(event, context):
+             # TODO implement
+             print("Lambd from my code")
+             return {
+                 'statusCode': 200,
+                 'body': json.dumps('Hello from Lambda!')
 
+
+                }
+   4: Create a Zip folder for requiremnt.txt & Venv & test_lambda.py 
+
+   5: Upload the zip file created above into AWS Lambda
+
+   6: Change/Edit  Lambda configss > lambda handle function script name (test_lambda)
+
+   7: Test the zip file 
    ------------------------------------
    
             import json
