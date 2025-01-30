@@ -101,7 +101,7 @@ when we use aws Lambda :
          sudo snap install postman
    -------------------------------------------------
   ## 6: Environment variables 
-        environment variables in AWS Lambda enhances security, flexibility, and scalability, allowing you to manage 
+        environment variables in AWS Lambda enhance security, flexibility, and scalability, allowing you to manage 
         configurations easily across multiple environments.\ 
         
    ![image](https://github.com/user-attachments/assets/91ccb714-c088-4cb0-9a1e-e8a1ab12f636)
@@ -124,6 +124,7 @@ when we use aws Lambda :
  ![image](https://github.com/user-attachments/assets/b54e4cf4-f519-4527-90ef-a320f1f6b8c0)
 
    ## How to fix the error 
+   ![image](https://github.com/user-attachments/assets/ccaa4173-0621-4aba-b3ec-5696d8681b44)
 
    ![image](https://github.com/user-attachments/assets/62d1f1e1-3e83-45cc-acd9-c60844526c1f)
 
@@ -132,4 +133,16 @@ when we use aws Lambda :
 
    ![image](https://github.com/user-attachments/assets/5ebd8688-1ce9-4962-8441-cdd71730ba5c)
          
+--------------------------------------------------------------
+## 07: Lambda Layers : Library for lambda 
+
+  We need to upload zip file into lambda layers 
+## 7.1: Steps to create IP file for lambda layers from IDE 
+
+    7.1: Create Python Directory \
+    7.2: Create lib Directory \
+    7.3: Create lib directory  \
+    7.4: inside lib , we need to create site-package 
+    7.5: inside that, we can create modules 
+    
 
