@@ -101,6 +101,9 @@ when we use aws Lambda :
          sudo snap install postman
    -------------------------------------------------
   ## 6: Environment variables 
+        environment variables in AWS Lambda enhances security, flexibility, and scalability, allowing you to manage 
+        configurations easily across multiple environments.\ 
+        
    ![image](https://github.com/user-attachments/assets/91ccb714-c088-4cb0-9a1e-e8a1ab12f636)
    
    Now we can use the env variable in lambda code
