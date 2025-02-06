@@ -1,5 +1,5 @@
 ## AWS RDS Note | 2025-02-06
-## -------------------------------------
+
 ### Commonly used AWS Acronyms 
 
     ARN : Amazon Resource Name (unique identifier for AWS resources)\
@@ -17,4 +17,4 @@
     RDS : Relational Database Service (AWS-managed database service)\
     SQL : Structured Query Language (language for querying and managing relational databases)\
     VPC : Virtual Private Cloud (isolated network environment for AWS resources)\
-## --------------------------------------
+
