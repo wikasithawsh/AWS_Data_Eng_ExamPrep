@@ -18,3 +18,14 @@
     SQL : Structured Query Language (language for querying and managing relational databases)\
     VPC : Virtual Private Cloud (isolated network environment for AWS resources)\
 
+### RDS : Relational Database Service
+          Supports > MySql, MariaDB, PostgreSQL, Oracle, Aurora
+          Since AWS RDS is a managed service, shell access to the db is not available
+          RDS capacity depends on the DB engine 
+          RDS can be monitored via cloud watch 
+
+### RDS hints:  
+          RDS is a managed service, it handles OS, but EC2 is not a managed service 
+          
+          
+          
