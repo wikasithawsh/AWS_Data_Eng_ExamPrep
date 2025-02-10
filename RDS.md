@@ -26,6 +26,9 @@
 
 ### RDS hints:  
           RDS is a managed service, it handles OS, but EC2 is not a managed service 
+          To create RDS , default VPC is not a good option due to lack of security 
           
+### RDS Networking & Subnet hints  
+            
           
           
